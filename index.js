@@ -28,6 +28,7 @@ try {
 
 var header = 'country,year,population'
 fs.writeFileSync('canada.txt', header + "\n")
+fs.writeFileSync('usa.txt', header + "\n")
 fs.createReadStream('input_countries.csv').pipe(csv())
 .on('data', (row) => {
     if (row['country'] === 'Canada') {
