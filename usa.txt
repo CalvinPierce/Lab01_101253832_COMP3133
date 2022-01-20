@@ -1,3 +1,4 @@
+country,year,population
 United States,1952,157553000
 United States,1957,171984000
 United States,1962,186538000
